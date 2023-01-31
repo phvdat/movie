@@ -1,0 +1,39 @@
+{
+  "serviceFee": {
+    "title": "Service Fee Detail",
+    "titleSubscribeFee": "Subscribe Fee Detail",
+    "transactionType": "Transaction type",
+    "transactionID": "Transaction ID",
+    "price": "Price",
+    "deliveryFee": "Delivery fee",
+    "total": "Total",
+    "status": "Status",
+    "description": "Description",
+    "reason": "Reason"
+  },
+  "transaction": {
+    "transactions": "Transactions",
+    "ID": "ID",
+    "type": "Type",
+    "date": "Date",
+    "price": "Price",
+    "status": "Status",
+    "ServiceFee": "Service fee",
+    "SubscribeFee": "Subscribe fee",
+    "Withdrawal": "Withdrawal"
+  },
+  "withdraw": {
+    "withdrawMoney": "Withdraw money",
+    "withdrawDetail": "Withdraw Detail",
+    "withdrawAmount": "Withdraw amount",
+    "withdrawFee": "Withdraw fee",
+    "withdrawAmountDesc": "A withdrawal request will be processed within {{ processedHours }} working hours. Please enter a withdrawal amount between {{ minWithdraw }} and {{ maxWithdraw }}",
+    "withdrawFeeTooltip": "Withdraw fee is calculated according to the formula Withdraw amount * 3%",
+    "totalAmount": "Total amount",
+    "totalAmountTooltip": "Total amount is calculated according to the formula Withdraw amount - Withdraw fee",
+    "bankName": "Bank name",
+    "totalAvailableBalance": "Total available balance",
+    "accountName": "Account name",
+    "accountNumber": "Account number"
+  }
+}

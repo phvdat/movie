@@ -1,0 +1,105 @@
+{
+  "placeholders": {
+    "password": "Enter password",
+    "phoneNumber": "Enter phone number",
+    "gender": "Choose your gender",
+    "country": "Choose your country",
+    "idNumber": "Enter ID number",
+    "proofOfIdentification": "Select your proof of identification",
+    "bankName": "Choose your bank name",
+    "swiftCode": "Swift code",
+    "branchName": "Branch name",
+    "accountNumber": "Account number",
+    "accountName": "Account name",
+    "withdrawAmount": "Enter your withdraw amount"
+  },
+  "buttons": {
+    "ok": "Ok",
+    "update": "Update",
+    "cancel": "Cancel",
+    "copy": "Copy",
+    "clear": "Clear",
+    "filter": "Filter",
+    "subscribe": "Subscribe",
+    "hide": "Hide",
+    "seeMore": "See more",
+    "register": "Register",
+    "login": "Login",
+    "updatePassword": "Update password",
+    "goToLogin": "Go to log in",
+    "reset": "Reset",
+    "save": "Save",
+    "submit": "Submit"
+  },
+  "accountType": {
+    "master": "Master",
+    "follower": "Follower"
+  },
+  "badge": {
+    "sell": "Sell",
+    "buy": "Buy"
+  },
+  "billing": {
+    "title": "Billing",
+    "accounts": "Accounts",
+    "createdDate": "Created date",
+    "inactiveDate": "Inactive date",
+    "renewDate": "Renew date",
+    "balance": "Balance",
+    "totalFee": "Total fee",
+    "status": "Status",
+    "withdraw": "Withdraw"
+  },
+  "bank": {
+    "bankName": "Bank name",
+    "accountName": "Account name",
+    "accountNumber": "Account number",
+    "branchName": "Branch name",
+    "swiftCode": "Swift code",
+    "addBankAccount": "Add bank account",
+    "bankAccountLimit": "Our system allows users to add maximum {{BANKING_ACCOUNT_LIMIT}} bank accounts"
+  },
+  "status": {
+    "active": "Active",
+    "inactive": "Inactive"
+  },
+  "date": {
+    "firstDay": "First Day",
+    "lastDay": "Last Day",
+    "7Days": "7 days",
+    "30Days": "30 days",
+    "90Days": "90 days",
+    "180Days": "180days",
+    "allDays": "All days"
+  },
+  "kyc": {
+    "idNumber": "ID number",
+    "dateOfBirth": "Date of birth",
+    "proofOfIdentification": "Proof of identification",
+    "dropProofOfIdentification": "Drop your proof of identification",
+    "frontSide": "Front side",
+    "backSide": "Back side"
+  },
+  "tooltips": {
+    "openTrades": "The list of open orders",
+    "history": "The list of closed orders",
+    "orderBy": "The command is copied by the master, if you open it yourself, your name will be displayed",
+    "delete": "Delete"
+  },
+  "home": "Home",
+  "overview": "Overview",
+  "statistic": "Statistic",
+  "subscriber": "Subscriber",
+  "subscription": "Subscription",
+  "order": "Order",
+  "history": "History",
+  "openTrades": "Open Trades",
+  "noData": "There are no records to display",
+  "noDataResponse": "There are no much to display",
+  "firstName": "First name",
+  "lastName": "Last name",
+  "fullName": "Full name",
+  "phoneNumber": "Phone number",
+  "gender": "Gender",
+  "country": "Country"
+}

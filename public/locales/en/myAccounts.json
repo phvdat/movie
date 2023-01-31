@@ -1,0 +1,109 @@
+{
+  "info": {
+    "follower": "Followers",
+    "subcriptionFee": "Subscription fee",
+    "totalProfit": "Total profit",
+    "equity": "Equity",
+    "maxDD": "Max DD",
+    "totalFollowingAmount": "Total amount following"
+  },
+  "masterSetting": {
+    "setting": "Setting",
+    "description": "Description",
+    "descriptionPlaceholder": "Enter your description",
+    "subcriptionFee": "Subscription fee (USD)",
+    "msgHintDescription": "Please provide a description of your signal for  your potential subscribers. A description will help attract subscribers",
+    "msgHintSubFee": "Setting a monthly price between {{minSubscriptionFee}} USD and {{maxSubscriptionFee}} USD.",
+    "allowViewTrades": "Allow public users to view your current open trades."
+  },
+  "overview": {
+    "closedPL": "Closed P/L",
+    "maxDD": "Max DD",
+    "floatingPL": "Floating P/L",
+    "transaction": "Transaction",
+    "vitory": "Victory",
+    "averageProfit": "Average profit",
+    "averageLotsPerMonth": "Average lots per month",
+    "averageLoss": "Average loss",
+    "week": "Week",
+    "maximumStagnation": "Maximum stagnation",
+    "averageTradesPerMonth": "Average trades per month",
+    "equity": "Equity",
+    "balance": "Balance",
+    "lastDeposit": "Last deposit",
+    "lastWithdrawl": "Last withdrawal",
+    "mostRecentTransaction": "Most recent transaction",
+    "brokerTimeZone": "Broker time zone"
+  },
+  "subcriber": {
+    "followerProfit": "Follower's profit",
+    "masterProfit": "Master's profit"
+  },
+  "order": {
+    "symbol": "Symbols",
+    "openedTime": "Open Time",
+    "closedTime": "Closed Time",
+    "profit": "Profit",
+    "orderId": "Order ID",
+    "volume": "Volume",
+    "openedPrice": "Open price",
+    "closedPrice": "Closed price",
+    "swap": "Swap",
+    "commission": "Commission",
+    "stopLoss": "S/L",
+    "takeProfit": "T/P",
+    "orderBy": "Order By",
+    "messageNotFullAccess": "Some information is available for Follower only, please copy to get full access."
+  },
+  "filter": {
+    "searchAccountName": "Search by ID",
+    "followingAmount": "Following Amount",
+    "followers": "Followers",
+    "followFee": "Follow fee"
+  },
+  "subscribeDialog": {
+    "title": "Select trading accounts for subscribing",
+    "selectLotSizeOption": "Please select lot size option for copytrade orders (select one option only)",
+    "lotMultiplierByBalance": "Lot multiplier by balance",
+    "lotMultiplierByBalanceDesc": "Lot size of copytrade orders will be proportional to the Master’s orders. The ratio is calculated as “Follower’s Balance : Master’s Balance”",
+    "fixedLot": "Fixed lot",
+    "lotMultiplier": "Lot multiplier",
+    "oneToOne": "1-to-1",
+    "lotMultiplierByEquity": "Lot multiplier by equity",
+    "selectMasterRenewalOption": "Please select master subscription renewal option",
+    "autoRenewal": "Subscription Auto-Renewal",
+    "autoRenewalDesc": "Master subscription will be automatically renewed at the end of subscription period"
+  },
+  "copyTradeSetting": {
+    "fixedLot": "Fixed lot (lots):",
+    "lotMultiplier": "Lot multiplier (%):",
+    "pleaseSelectMasterOrders": "Please select which Master’s orders to copytrade (select both to copytrade all buy and sell orders)",
+    "pleaseSelectMasterSubscription": "Please select master subscription renewal option",
+    "lotMultiplierBalanceDesc": "Lot size of copytrade orders will be proportional to the Master’s orders. The ratio is calculated as “Follower’s Balance : Master’s Balance”",
+    "fixedLotDesc": "Lot size of copytrade orders will default to value specified here",
+    "lotMultiplierDesc": "Lot size of copytrade orders will be proportional to the Master’s orders. The ratio is determined by value specified here.",
+    "oneToOneDesc": "Lot size of copytrade orders will be exactly the same as Master’s orders",
+    "lotMultiplierByEquityDesc": "Lot size of copytrade orders will be proportional to the Master’s orders. The ratio is calculated as “Follower’s Equity : Master’s Equity”",
+    "selectMasterRenewalOption": "Please select master subscription renewal option",
+    "buyOrders": "Buy Orders",
+    "sellOrders": "Sell Orders",
+    "buyOrdersDesc": "Select this option on its own will only copytrade Buy Orders",
+    "sellOrdersDesc": "Select this option on its own will only copytrade Sell Orders"
+  },
+  "riskControlSetting": {
+    "drawdownLabel": "Drawdown Stop Loss (%):",
+    "drawdownDesc": "No new copytrade orders will be opened and all existing positions will be closed once Drawdown % exceeds the specified value",
+    "signalInterruptionLabel": "Signal Interruption Protection",
+    "signalInterruptionDesc": "Subscription from Master will be cancelled and existing positions from Master will be closed if signal from Master is disconnected for more than 1 hour",
+    "sumMaximumLotSizeLabel": "Sum Maximum Lot Size for all Trades (lots):",
+    "sumMaximumLotSizeDesc": "If lot size of all copytrade orders exceeds specified value, no new copytrade orders will be opened until lot size of all trades fall back down to this value",
+    "balanceLabel": "Balance Protection (USD):",
+    "balanceDesc": "No new copytrade orders will be opened and all existing positions will be closed once Balance falls below the specified value",
+    "equityLabel": "Equity Protection (USD):",
+    "equityDesc": "No new copytrade orders will be opened and all existing positions will be closed once Equity falls below the specified value",
+    "stopAllFollowingLabel": "Stop All Followings",
+    "stopAllFollowingDesc": "Once selected, no new copytrade orders will be opened (until deselected). However, existing positions will continue following until closed by Master",
+    "maximumLotSizeLabel": "Maximum Lot Size for each Trade (lots):",
+    "maximumLotSizeDesc": "If lot size of a copytrade order exceeds specified value, specified value will be used instead"
+  }
+}

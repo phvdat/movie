@@ -1,0 +1,56 @@
+{
+  "confirmRegistered": {
+    "title": "Check your email",
+    "description": "We have sent an email to confirm your registration, please verify your email before proceeding to login"
+  },
+  "changedPassSuccess": {
+    "title": "Your password has been successful changed"
+  },
+  "verifiedEmailSuccess": {
+    "title": "Your email has been successfully verified"
+  },
+  "register": {
+    "title": "Register to WecopyTrade",
+    "or": "or",
+    "firstnamePlaceholder": "First name",
+    "lastnamePlaceholder": "Last name",
+    "emailPlaceholder": "Enter email",
+    "phonePlaceholder": "Enter phone",
+    "passwordPlaceholder": "Enter password",
+    "reTypePasswordPlaceholder": "Re-type password",
+    "iAgreeWith": "I agree with Wecopytrade's",
+    "privacyPolicy": "Privacy policy",
+    "and": "and",
+    "termsOfUse": "Terms of use",
+    "alreadyHaveAccount": "Already have an account?",
+    "loginText": "Log in",
+    "here": "here"
+  },
+  "login": {
+    "title": "Login to WecopyTrade",
+    "emailPlaceholder": "Enter email or phone number",
+    "passwordPlaceholder": "Enter password",
+    "labelRemember": "Remember me",
+    "forgotPassword": "Forgot your password",
+    "dontHaveAccount": "Don't have an account yet?",
+    "registerText": "Register",
+    "inccorectPayload": "Incorrect email, phone number, or password. Make sure you entered correctly!",
+    "accountNotFound": "The account does not exist yet.",
+    "here": "here"
+  },
+  "forgotPassword": {
+    "title": "Forgot password?",
+    "description": " Enter your email to receive instructions on how to reset your password."
+  },
+  "forgotPasswordSuccess": {
+    "title": "Check your email",
+    "description": "You should receive the email shortly. Please use the link in the email <strong>{{email}}</strong> to reset your password."
+  },
+  "resetPassword": {
+    "title": "Set new password",
+    "description": "Your password has been successfully reset."
+  },
+  "resetPasswordSuccess": {
+    "title": "Your password has been updated successfully."
+  }
+}

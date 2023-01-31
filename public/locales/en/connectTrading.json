@@ -1,0 +1,24 @@
+{
+  "connect": {
+    "title": "Connect trading account",
+    "accountType": "Account type",
+    "platform": "Platform",
+    "findYourBroker": "Find your broker",
+    "findYourBrokerPlaceholder": "Select or enter your broker's name",
+    "importYourBroker": "Import your broker",
+    "id": "ID",
+    "accountName": "Account name",
+    "accountNamePlaceholder": "Enter account name",
+    "password": "Password",
+    "idPlaceholder": "Enter ID login",
+    "passwordPlaceholder": "Enter password",
+    "noResult": "No result",
+    "login": "Log in"
+  },
+  "import": {
+    "title": "Your broker is currently not in our system",
+    "dropOrClick": "Drop files here or click to upload.",
+    "fileSizeLessThan": "srv/dat files with a size less than",
+    "broker": "Broker"
+  }
+}
